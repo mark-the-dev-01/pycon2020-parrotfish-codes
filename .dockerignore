@@ -1,5 +1,5 @@
 .git
-__pycache__
-*.pyc
-*.pyo
-*.pyd
+flask-dashboard/__pycache__
+flask-dashboard/*.pyc
+flask-dashboard/*.pyo
+flask-dashboard/*.pyd
