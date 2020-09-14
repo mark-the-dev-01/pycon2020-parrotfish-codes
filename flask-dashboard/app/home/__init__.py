@@ -1,6 +1,7 @@
 # -*- encoding: utf-8 -*-
 """
 Copyright (c) 2019 - present AppSeed.us
+Copyright (c) 2020 - mark-the-dev-01
 """
 
 from flask import Blueprint

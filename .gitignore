@@ -1,5 +1,5 @@
 # byte-compiled / optimized / DLL files
-__pycache__/
+flask-dashboard/__pycache__/
 *.py[cod]
 
 # tests and coverage
@@ -26,3 +26,5 @@ _templates
 # javascript
 package-lock.json
 .vscode/symbols.json
+flask-dashboard/vdev
+flask-dashboard-origin
