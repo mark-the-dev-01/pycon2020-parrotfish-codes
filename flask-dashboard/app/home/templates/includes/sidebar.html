@@ -7,31 +7,30 @@
       </a>
       <a target="_blank" rel="sponsored noopener noreferrer"
         href="https://appseed.us/admin-dashboards/flask-dashboard-black" class="simple-text logo-normal">
-        Flask Black
+        ParrotFish
       </a>
     </div>
 
     <ul class="nav">
-      {% if current_user.is_authenticated %}
       <li class="{% if 'index' in segment %} active {% endif %}">
         <a href="/">
           <i class="tim-icons icon-chart-pie-36"></i>
           <p>Dashboard</p>
         </a>
       </li>
-      <li class="{% if 'icons' in segment %} active {% endif %}">
+      <!-- <li class="{% if 'icons' in segment %} active {% endif %}">
         <a href="/ui-icons.html">
           <i class="tim-icons icon-atom"></i>
           <p>Icons</p>
         </a>
-      </li>
+      </li> -->
       <li class="{% if 'maps' in segment %} active {% endif %}">
-        <a href="/ui-maps.html">
+        <a href="/ui-leaflet-maps.html">
           <i class="tim-icons icon-pin"></i>
           <p>Maps</p>
         </a>
       </li>
-      <li class="{% if 'notifications' in segment %} active {% endif %}">
+      <!-- <li class="{% if 'notifications' in segment %} active {% endif %}">
         <a href="/ui-notifications.html">
           <i class="tim-icons icon-bell-55"></i>
           <p>Notifications</p>
@@ -66,15 +65,7 @@
           <i class="tim-icons icon-user-run"></i>
           <p>Register</p>
         </a>
-      </li>
-      {% else %}
-      <li class="active">
-        <a target="_blank" href="https://appseed.us/admin-dashboards/flask-dashboard-black-pro">
-          <i class="tim-icons icon-spaceship"></i>
-          <p>PRO Version</p>
-        </a>
-      </li>
-      {% endif %}
+      </li> -->
     </ul>
 
   </div>
